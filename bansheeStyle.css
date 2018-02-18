@@ -1,0 +1,95 @@
+     p.large 
+      {
+        text-align: center;
+        font-size: 35px;
+      }
+      h2.weapons
+      {
+        -webkit-text-fill-color: coral;
+        font-family: "Arial";
+      }
+      img.bansheeImage
+      {
+        display: block;
+        margin: 0 auto;
+        width: 1000px;
+        
+      }
+      body
+      {
+        background-color: #efeff5;
+        background-image: url("http://1.bp.blogspot.com/-LA2HzS2zx7s/VYr407CZXNI/AAAAAAAJKHY/J1_dAe0MZkc/s1600/110424vzw66mdc3w3kmrm7.jpg");
+        background-blend-mode:overlay;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      h1.bansheeTitle
+      {
+        font-family: "Arial";
+        font-size: 80px;
+        text-shadow:5px 5px 10px rgba(92, 90, 90, 0.863);
+      }
+      h2.weapons
+      {
+        text-align: center;
+        font-size: 55px;
+        text-shadow:5px 5px 10px black;      
+          
+      }
+      div.wepInfo
+      {
+        font-family: "Arial";
+        font-size: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      div.overview
+      {
+        font-family: "Arial";
+        font-size: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      h2.overviewHeading
+      {
+        text-align: center;
+        font-size: 70px;
+        -webkit-text-fill-color: coral;
+        text-shadow:5px 5px 10px black; 
+        font-family: "Arial";
+      }
+      hr.intro
+      {
+          box-shadow: 1px 1px #888888;
+      }
+      a.github
+      {
+        font-family: "Arial";
+        background-color: rgb(12, 151, 12); /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border: 1px solid;
+        box-shadow: 5px 10px black;
+        width: 750px;
+        margin:auto;
+        display:block;
+      }
+    a.github:hover 
+    {
+        background-color: #3e8e41
+    }
+    a.github:active 
+    {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+      }
