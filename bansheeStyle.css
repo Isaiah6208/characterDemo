@@ -132,6 +132,7 @@ li a:hover:not(.active)
         margin-left: auto;
         display:block;
       }
+
     a.github:hover 
     {
         background-color: #3e8e41
