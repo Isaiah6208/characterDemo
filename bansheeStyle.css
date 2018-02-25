@@ -1,35 +1,5 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
-li {
-  float: left;
-}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: "Arial";
-  font-size: 25px;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}
      p.large 
       {
         text-align: center;
@@ -107,34 +77,26 @@ li a:hover:not(.active) {
       {
         box-shadow: 1px 1px #888888;
       }
-      a.github
-      {
-        font-family: "Arial";
-        background-color: rgb(12, 151, 12); /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 25px;
-        border: 1px solid;
-        box-shadow: 5px 10px black;
-        width: 650px;
-        margin-top: 100px;
-        margin-bottom: auto;
-        margin-right: auto;
-        margin-left: auto;
-        display:block;
+      #nav1
+      {  
+          background-color:rgb(0, 0, 0);  /*whichever you want*/
+          opacity: 0.8;           /*0.5 determines transparency value*/ 
+          filter:(opacity=50);       
       }
-    a.github:hover 
-    {
-        background-color: #3e8e41
-    }
-    a.github:active 
-    {
-        background-color: #3e8e41;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-    }
-    
+      img.exiaLogo
+      {
+        width: 70px;
+        height: 50px;
+      }
+      div.preSpace
+      {
+          padding-bottom: 240px;
+      }
+
+
+      /* Bootstrap CSS */
+      ul.navbar-nav
+      {
+        font-size: 30px;
+      }
+        
